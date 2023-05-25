@@ -1,0 +1,96 @@
+ENUNCIADO DOS EXERCÍCIOS REALIZADOS NESTE ARQUIVO EM JAVASCRIPT TRABALHANDO COM OPERADORES LÓGICOS.
+
+EXERCÍCIOS DE ANÁLISE DE CÓDIGO
+Tente responder os exercícios dessa seção sem executar o código. Se ficar muito difícil, pode rodar no seu computador para analisar e pensar sobre o resultado.
+Leia o código abaixo. Indique todas as mensagens impressas no console, SEM EXECUTAR o programa.
+ 
+ Análise 1
+const bool1 = true
+const bool2 = false
+const bool3 = !bool2
+
+let resultado = bool1 && bool2
+console.log("a. ", resultado)
+
+resultado = bool1 && bool2 && bool3 
+console.log("b. ", resultado) 
+
+resultado = !resultado && (bool1 || bool2) 
+console.log("c. ", resultado)
+
+console.log("d. ", typeof resultado)
+
+Análise  2
+Seu colega se aproxima de você falando que o código dele não funciona como devia.
+Vamos ajudá-lo: consegue perceber algum problema? O que será impresso no console?
+
+let primeiroNumero = prompt("Digite um numero!")
+let segundoNumero = prompt("Digite outro numero!")
+
+const soma = primeiroNumero + segundoNumero
+
+console.log(soma)
+
+Análise 3
+Para o exercício anterior, sugira ao seu colega uma solução para que o valor impresso no 
+console seja, de fato, a soma dos dois números.
+
+EXERCÍCIOS 
+Exercícios de escrita de código
+Faça um programa que:
+a) Pergunte a idade do usuário
+b) Pergunte a idade do seu melhor amigo ou da sua melhor amiga
+c) Imprima no console a seguinte mensagem: "Sua idade é maior do que a do seu melhor amigo?", seguido pela resposta (true ou false)
+d) Imprima no console a diferença de idade (não tem problema se sair um número negativo)
+
+EXERCÍCIO 2
+exercício de escrita de código
+Faça um programa que:
+a) Peça ao usuário que insira um número par
+b) Imprima na console o resto da divisão desse número por 2.
+c) Teste o programa com diversos números pares. Você notou um padrão? Escreva em um comentário de código.
+d) O que acontece se o usuário inserir um número ímpar? Escreva em um comentário de código
+
+EXERCÍCIO 3
+Exercício de escrita de código
+Faça um programa que pergunte ao usuário sua idade em anos. Depois, imprima no console
+a) A idade do usuário em meses
+b) A idade do usuário em dias
+c) A idade do usuário em horas
+
+EXERCÍCIO 4
+Exercício de escrita de código
+Faça um programa que pergunte ao usuário dois números.
+Em seguida, faça as operaçes e imprima no console
+as seguintes mensagens seguidas pelo true ou false:
+
+O primeiro numero é maior que segundo? true
+O primeiro numero é igual ao segundo? false
+O primeiro numero é divisível pelo segundo? true
+O segundo numero é divisível pelo primeiro? true
+
+obs: O true ou false vai depender dos números inseridos e do resultado das operações.
+
+DESAFIO 1
+Todos os exercícios aqui são de escrita de código!
+Para este exercício, será necessário o conhecimento das fórmulas para mudar a unidade de temperatura entre Graus Celsius(°C), Graus Fahrenheit(°F) e Kelvin(K). Abaixo estão duas delas:
+Graus Fahrenheit(°F) para Kelvin(K)
+(KELVIN) = (GRAUS_FAHRENHEIT - 32)*(5/9) + 273.15
+Graus Celsius(°C) para Graus Fahrenheit (°C)
+(GRAUS_FAHRENHEIT) = (GRAUS_CELSIUS)*(9/5) + 32
+
+a) Calcule e mostre o valor de 77°F em K, mostrando a unidade no console também.
+b) Calcule e mostre o valor de 80°C em °F, mostrando a unidade no console também
+c) Calcule e mostre o valor de 30°C em °F e K, mostrando as unidades no console também
+d) Altere o último item para que o usuário insira o valor em graus Celsius que ele deseja converter
+
+DESAFIO 2
+Quilowatt-hora é uma unidade de energia; e é muito utilizada para se determinar o
+consumo de energia elétrica em residências. Sabe-se que o quilowatt-hora de energia custa R$0.05.
+Faça um programa que receba a quantidade de quilowatts consumida por uma residência.
+
+a) Calcule e mostre o valor a ser pago por uma residência que consuma 280 quilowatt-hora
+b) Altere o programa para receber mais um valor: a porcentagem de desconto. Calcule e
+mostre o valor a ser pago pela mesma residência acima considerando 15% de desconto
+
+
